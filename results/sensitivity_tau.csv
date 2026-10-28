@@ -1,0 +1,7 @@
+tau_h,strategy,total,afrr
+0.50,stack_seq,288.58,263.35
+0.50,stack_pf,412.68,202.80
+1.00,stack_seq,284.54,269.38
+1.00,stack_pf,402.23,194.04
+2.00,stack_seq,210.54,163.60
+2.00,stack_pf,350.73,114.15

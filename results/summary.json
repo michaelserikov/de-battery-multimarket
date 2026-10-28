@@ -1,0 +1,265 @@
+{
+  "battery": {
+    "power": 1.0,
+    "energy": 2.0,
+    "rte": 0.88,
+    "deg_cost": 10.0,
+    "tau": 1.0,
+    "soc0_frac": 0.5
+  },
+  "period": [
+    "2025-01-01",
+    "2026-09-30"
+  ],
+  "days": 638,
+  "kEUR_per_MW_year": {
+    "all": {
+      "da_naive": {
+        "da": 80.5,
+        "id": 0.0,
+        "afrr": 0.0,
+        "degradation": -10.7,
+        "total": 69.8,
+        "cycles_per_day": 1.47,
+        "days": 638
+      },
+      "da_naive_id": {
+        "da": 80.5,
+        "id": 65.74,
+        "afrr": 0.0,
+        "degradation": -14.88,
+        "total": 131.36,
+        "cycles_per_day": 2.04,
+        "days": 638
+      },
+      "da_pf": {
+        "da": 91.82,
+        "id": 0.0,
+        "afrr": 0.0,
+        "degradation": -10.59,
+        "total": 81.22,
+        "cycles_per_day": 1.45,
+        "days": 638
+      },
+      "da_id_pf": {
+        "da": -11.69,
+        "id": 323.36,
+        "afrr": 0.0,
+        "degradation": -14.88,
+        "total": 296.8,
+        "cycles_per_day": 2.04,
+        "days": 638
+      },
+      "afrr_only": {
+        "da": 0.0,
+        "id": 0.0,
+        "afrr": 262.68,
+        "degradation": 0.0,
+        "total": 262.68,
+        "cycles_per_day": 0.0,
+        "days": 638
+      },
+      "stack_seq": {
+        "da": 14.28,
+        "id": 4.17,
+        "afrr": 244.56,
+        "degradation": -1.69,
+        "total": 261.31,
+        "cycles_per_day": 0.23,
+        "days": 638
+      },
+      "stack_pf": {
+        "da": -16.94,
+        "id": 246.63,
+        "afrr": 177.55,
+        "degradation": -9.66,
+        "total": 397.59,
+        "cycles_per_day": 1.32,
+        "days": 638
+      }
+    },
+    "2025": {
+      "da_naive": {
+        "da": 72.74,
+        "id": 0.0,
+        "afrr": 0.0,
+        "degradation": -11.13,
+        "total": 61.61,
+        "cycles_per_day": 1.52,
+        "days": 365
+      },
+      "da_naive_id": {
+        "da": 72.74,
+        "id": 65.91,
+        "afrr": 0.0,
+        "degradation": -15.67,
+        "total": 122.97,
+        "cycles_per_day": 2.15,
+        "days": 365
+      },
+      "da_pf": {
+        "da": 83.28,
+        "id": 0.0,
+        "afrr": 0.0,
+        "degradation": -10.99,
+        "total": 72.29,
+        "cycles_per_day": 1.51,
+        "days": 365
+      },
+      "da_id_pf": {
+        "da": -5.44,
+        "id": 304.13,
+        "afrr": 0.0,
+        "degradation": -15.67,
+        "total": 283.02,
+        "cycles_per_day": 2.15,
+        "days": 365
+      },
+      "afrr_only": {
+        "da": 0.0,
+        "id": 0.0,
+        "afrr": 294.38,
+        "degradation": 0.0,
+        "total": 294.38,
+        "cycles_per_day": 0.0,
+        "days": 365
+      },
+      "stack_seq": {
+        "da": 7.71,
+        "id": 2.6,
+        "afrr": 283.34,
+        "degradation": -1.09,
+        "total": 292.56,
+        "cycles_per_day": 0.15,
+        "days": 365
+      },
+      "stack_pf": {
+        "da": -10.63,
+        "id": 210.06,
+        "afrr": 217.88,
+        "degradation": -8.75,
+        "total": 408.56,
+        "cycles_per_day": 1.2,
+        "days": 365
+      }
+    },
+    "2026": {
+      "da_naive": {
+        "da": 90.87,
+        "id": 0.0,
+        "afrr": 0.0,
+        "degradation": -10.12,
+        "total": 80.76,
+        "cycles_per_day": 1.39,
+        "days": 273
+      },
+      "da_naive_id": {
+        "da": 90.87,
+        "id": 65.52,
+        "afrr": 0.0,
+        "degradation": -13.81,
+        "total": 142.58,
+        "cycles_per_day": 1.89,
+        "days": 273
+      },
+      "da_pf": {
+        "da": 103.24,
+        "id": 0.0,
+        "afrr": 0.0,
+        "degradation": -10.07,
+        "total": 93.17,
+        "cycles_per_day": 1.38,
+        "days": 273
+      },
+      "da_id_pf": {
+        "da": -20.03,
+        "id": 349.07,
+        "afrr": 0.0,
+        "degradation": -13.81,
+        "total": 315.23,
+        "cycles_per_day": 1.89,
+        "days": 273
+      },
+      "afrr_only": {
+        "da": 0.0,
+        "id": 0.0,
+        "afrr": 220.3,
+        "degradation": 0.0,
+        "total": 220.3,
+        "cycles_per_day": 0.0,
+        "days": 273
+      },
+      "stack_seq": {
+        "da": 23.06,
+        "id": 6.26,
+        "afrr": 192.72,
+        "degradation": -2.5,
+        "total": 219.54,
+        "cycles_per_day": 0.34,
+        "days": 273
+      },
+      "stack_pf": {
+        "da": -25.38,
+        "id": 295.53,
+        "afrr": 123.63,
+        "degradation": -10.87,
+        "total": 382.91,
+        "cycles_per_day": 1.49,
+        "days": 273
+      }
+    }
+  },
+  "stack_seq_share_of_stack_pf": 0.6572542362140894,
+  "stack_seq_mean_reserve_MW": {
+    "pos": 0.9173374427483874,
+    "neg": 0.8897160820873102
+  },
+  "sensitivity_tau_every_7th_day": [
+    {
+      "tau_h": 0.5,
+      "strategy": "stack_seq",
+      "total": 288.58,
+      "afrr": 263.35
+    },
+    {
+      "tau_h": 0.5,
+      "strategy": "stack_pf",
+      "total": 412.68,
+      "afrr": 202.8
+    },
+    {
+      "tau_h": 1.0,
+      "strategy": "stack_seq",
+      "total": 284.54,
+      "afrr": 269.38
+    },
+    {
+      "tau_h": 1.0,
+      "strategy": "stack_pf",
+      "total": 402.23,
+      "afrr": 194.04
+    },
+    {
+      "tau_h": 2.0,
+      "strategy": "stack_seq",
+      "total": 210.54,
+      "afrr": 163.6
+    },
+    {
+      "tau_h": 2.0,
+      "strategy": "stack_pf",
+      "total": 350.73,
+      "afrr": 114.15
+    }
+  ],
+  "afrr_capacity_price_monthly_mean": {
+    "first": {
+      "pos": 12.61,
+      "neg": 4.86
+    },
+    "last": {
+      "pos": 11.99,
+      "neg": 15.79
+    }
+  }
+}
